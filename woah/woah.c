@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: carrocha <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/11/05 11:59:28 by carrocha          #+#    #+#             */
-/*   Updated: 2018/11/06 15:48:22 by carrocha         ###   ########.fr       */
+/*   Created: 2018/11/06 17:00:26 by carrocha          #+#    #+#             */
+/*   Updated: 2018/11/06 17:05:44 by carrocha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <unistd.h>
@@ -14,8 +14,7 @@
 int main(void)
 
 {
-	write(1,"YOU DID IT!",11);
+	write(1,"YOU WIN!",8);
 	return(0);
-
 }
 
